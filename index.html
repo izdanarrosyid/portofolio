@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!-- Section Navigasi -->
+    <section>
+      <nav class="navbar sm:navbar-expand bg-subtle-primary fg-2 fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Muhammad Izdan Arrosyid</a>
+          <button
+            class="btn-icon navbar-toggler"
+            type="button"
+            data-bs-toggle="drawer"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon" aria-hidden="true"></span>
+          </button>
+          <dialog
+            class="drawer drawer-end"
+            tabindex="-1"
+            id="navbarNav"
+            aria-labelledby="navbarNavLabel"
+          >
+            <div class="drawer-header">
+              <h5 class="drawer-title" id="navbarNavLabel">Menu</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="drawer"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="drawer-body">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contac">Contac</a>
+                </li>
+              </ul>
+            </div>
+          </dialog>
+        </div>
+      </nav>
+    </section>
+
+    <!-- Section Avatar -->
+    <section class="bg-3" id="home">
+      <div class="container py-12">
+        <div class="row g-6 mt-12">
+          <div class="col-12 text-center">
+            <div>
+              <span class="avatar" style="--bs-avatar-size: 8rem">
+                <img class="avatar-img" src="foto formal.jpeg" alt="mdo" />
+              </span>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="text-center">
+              <h3 class="fg-2 fw-bold">Muhammad Izdan Arrosyid</h3>
+              <h4>Mechatronics & Web Development Student</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section About -->
+    <section class="py-12" id="about">
+      <div>
+        <h3 class="text-center fw-bold">About Me</h3>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-8">
+          <p class="text-center mt-4">
+            Saya merupakan seorang siswa kelahiran 12 Juni 2009 di Yogyakarta
+            yang saat ini menekuni bidang Teknik Mekatronika, dengan minat besar
+            yang terus berkembang di ranah Teknik Mesin, Elektronika, maupun
+            Informatika karena saya menyadari ketiga bidang ini saling
+            melengkapi dan menjadi fondasi penting dalam dunia teknologi masa
+            depan. Saya selalu menjaga semangat belajar yang tinggi untuk terus
+            mengasah kemampuan, terbiasa bekerja dengan baik secara mandiri
+            maupun dalam tim karena saya paham bahwa kerja sama dan komunikasi
+            yang efektif sangat dibutuhkan untuk mencapai hasil terbaik. Dengan
+            ketekunan dan keinginan untuk terus berkembang, saya siap memberikan
+            kontribusi terbaik di lingkungan kerja serta menghadapi berbagai
+            tantangan di dunia industri modern yang terus berubah dan berkembang
+            pesat.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Project-->
+    <section class="bg-3 py-12" id="projects">
+      <!-- Text -->
+      <div>
+        <h3 class="text-center fw-bold">My Projects</h3>
+      </div>
+
+      <!-- Project -->
+      <div>
+        <div class="container">
+          <div class="row g-6 mt-6">
+            <!-- 1 -->
+            <div class="col-12 md:col-4">
+              <div class="card h-100">
+                <img
+                  src="lot gandul.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                  style="height: 300px; object-fit: cover"
+                />
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <p class="fw-bold fg-primary">Lot Gandul</p>
+                  </div>
+                  <p class="card-text">
+                    Membuat bandul tegak lurus menggunakan mesin bubut dan bor
+                    untuk mengukur dan memastikan keselarasan vertikal yang
+                    sebenarnya dari suatu permukaan atau objek.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="col-12 md:col-4">
+              <div class="card h-100">
+                <img
+                  src="kepala palu.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                  style="height: 300px; object-fit: cover"
+                />
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <p class="fw-bold fg-primary">Head Hammer</p>
+                  </div>
+                  <p class="card-text">
+                    Membuat head hammer menggunakan kikir, bor, dan hand tap.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="col-12 md:col-4">
+              <div class="card h-100">
+                <img
+                  src="gagang palu.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                  style="height: 300px; object-fit: cover"
+                />
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <p class="fw-bold fg-primary">Handle Hammer</p>
+                  </div>
+                  <p class="card-text">
+                    Membuat handle hammer menggunakan mesin bubut, bor, dan
+                    melakukan hand tap
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 4 -->
+            <div class="col-12 md:col-4">
+              <div class="card h-100">
+                <img
+                  src="mur.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                  style="height: 300px; object-fit: cover"
+                />
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <p class="fw-bold fg-primary">Mur</p>
+                  </div>
+                  <p class="card-text">
+                    Membuat mur menggunakan kikir, bor, dan hand tap.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 5 -->
+            <div class="col-12 md:col-4">
+              <div class="card h-100">
+                <img
+                  src="tl.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                  style="height: 300px; object-fit: cover"
+                />
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <p class="fw-bold fg-primary">Teknik Listrik</p>
+                  </div>
+                  <p class="card-text">
+                    Merancang dan merangkai sistem kelistrikan yang mencakup
+                    pengawasan rangkaian kendali daya, mulai dari pengasutan
+                    motor satu fasa hingga motor tiga fasa, serta memahami
+                    prinsip kerja dan keamanan sistem secara menyeluruh.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 6 -->
+            <div class="col-12 md:col-4">
+              <div class="card h-100">
+                <img
+                  src="solder.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                  style="height: 300px; object-fit: cover"
+                />
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <p class="fw-bold fg-primary">Flip-Flop Lamp</p>
+                  </div>
+                  <p class="card-text">
+                    Merakit rangkaian lampu kedap-kedip lalu di solder.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Contac -->
+    <section class="py-12" id="contac">
+      <h3 class="text-center">Contac Me</h3>
+
+      <div class="container">
+        <div class="row justify-content-center mt-6 g-6">
+          <div class="col-10">
+            <label for="exampleFormControlInput" class="form-label mb-2"
+              >Nama :</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="exampleFormControlInput"
+              placeholder="Masukkan nama anda"
+            />
+          </div>
+
+          <div class="col-10">
+            <label for="exampleFormControlInput" class="form-label mb-2"
+              >Email :</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput"
+              placeholder="name@example.com"
+            />
+          </div>
+
+          <div class="col-10">
+            <label for="exampleFormControlTextarea2" class="form-label"
+              >Pesan :</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea2"
+              rows="4"
+              placeholder="Tuliskan pesan"
+            ></textarea>
+          </div>
+
+          <div class="col-10">
+            <button type="button" class="btn-outline theme-primary w-100">
+              Kirim Pesan
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Footer -->
+    <section class="bg-3 py-6">
+      <div class="container">
+        <footer class="text-center">
+          © 2026 Muhammad Izdan Arrosyid • SMK SMTI YOGYAKARTA
+        </footer>
+      </div>
+    </section>
+
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
